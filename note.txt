@@ -1,0 +1,15 @@
+// core modules = apapun yang ada di dalam node js ketika di install; => buka docs node js; contoh dibawah ini 'os'
+const os = require("node:os");
+console.log({ os: os.cpus()[0].times });
+
+// third party modules = module apapun yang tidak terinstall secara default; contoh dibawah ini expres js
+
+// local modules;
+const sum = require("./utils/sum");
+
+const sumUp = sum(1, 2);
+console.log({ sumUp });
+
+
+HTTP = hypertext transfer protocol
+method nya ada post,get,delete,put
